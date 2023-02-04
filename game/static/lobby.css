@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #F6F5E5 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body .container #apresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+body .container #apresentation h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+section#register, section#login {
+    display: none;
+}
+
+section#login form, section#register form {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    width: 50%;
+}
